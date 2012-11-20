@@ -1,9 +1,9 @@
 storyjs_jsonp_data = {
     "timeline":
     {
-        "headline":"Western Xia History | 西夏历史",
+        "headline":"Western Xia History | 西夏歷史",
         "type":"default",
-		"text":"People say stuff",
+		"text":"A timeline of Western Xia. |  西夏（1038年-1227年），又稱邦泥定国或白高大夏國，是中國歷史上由党項族建立的一個征服王朝，主要以党項族為主體，包括漢族、回鶻族與吐蕃族等民族在內的國家。因位於中國地區的西北部，史稱西夏。",
 		"startDate":"2012,1,26",
         "date": [
             {
