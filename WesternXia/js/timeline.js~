@@ -1852,7 +1852,7 @@ if(typeof VMM != 'undefined' && typeof VMM.Util == 'undefined') {
 			
 			var urlPattern = /<i[^>]*>(.*?)<\/i>/gim;
 			return text
-				.replace(urlPattern, "<a target='_blank' href='http://zh.wikipedia.org/wiki/$&' onclick='void(0)'>$&</a>")
+				.replace(urlPattern, "<a target='_blank' href='http://en.wikipedia.org/wiki/$&' onclick='void(0)'>$&</a>")
 				.replace(/<i\b[^>]*>/gim, "")
 				.replace(/<\/i>/gim, "")
 				.replace(/<b\b[^>]*>/gim, "")
