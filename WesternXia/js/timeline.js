@@ -1852,7 +1852,7 @@ if(typeof VMM != 'undefined' && typeof VMM.Util == 'undefined') {
 			
 			var urlPattern = /<i[^>]*>(.*?)<\/i>/gim;
 			return text
-				.replace(urlPattern, "<a target='_blank' href='http://zh.wikipedia.org/wiki/$&' onclick='void(0)'>$&</a>")
+				.replace(urlPattern, "<a target='_blank' href='http://en.wikipedia.org/wiki/$&' onclick='void(0)'>$&</a>")
 				.replace(/<i\b[^>]*>/gim, "")
 				.replace(/<\/i>/gim, "")
 				.replace(/<b\b[^>]*>/gim, "")
@@ -5732,6 +5732,7 @@ if (typeof VMM.Slider != 'undefined') {
 					if (data.type != "start") {
 						var st	= VMM.Date.prettyDate(data.startdate);
 						var en	= VMM.Date.prettyDate(data.enddate);
+						var st2 = VMM.
 						var tag	= "";
 						/* TAG / CATEGORY
 						================================================== */
@@ -5740,13 +5741,15 @@ if (typeof VMM.Slider != 'undefined') {
 						}
 						
 						if (st != en) {
-							c.text += VMM.createElement("h2", st + " &mdash; " + en + tag, "date");
+							c.text += VMM.createElement("h2", st + " &mdash; " + en + tag , "date");
 						} else {
 							c.text += VMM.createElement("h2", st + tag, "date");
 						}
 					}
 				}
 			}
+		
+
 			
 			/* HEADLINE
 			================================================== */
